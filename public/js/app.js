@@ -1,18 +1,3 @@
-console.log('Javascript file is loading')
-
-// fetch('http://localhost:3007/weather?address=!').then((response) => {
-//     response.json().then((data)=>{
-//         if(data.error)
-//         {
-//             console.log(data.error)
-//         }
-//         else{
-//             console.log(data.location)
-//             console.log(data.forecast)
-//         }
-//     })
-// })
-
 const weatherForm = document.querySelector('form')
 const search = document.querySelector('input')
 const msg1 = document.getElementById('msg1')
